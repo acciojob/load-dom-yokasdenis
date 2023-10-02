@@ -7,8 +7,15 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <script>
+		
+document.addEventListener("DOMContentLoaded", function() {
+  const message = document.createElement("p"); 
+  message.textContent = "DOM load success";
+  document.body.appendChild(message);
+});
+
+
 </script>
 
 </body>
